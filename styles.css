@@ -1,0 +1,140 @@
+/* dark #b7472a 
+ #eb9788
+ #ffd5ab
+ #fff2e5
+ */
+
+body {
+  background: #ffd5ab;
+  font-family: "Roboto", sans-serif;
+}
+.cursive {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  color: #b7472a;
+}
+.cursive:hover {
+  transition: 350ms ease-in-out;
+  color: #e4405f;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.custom-jumbotron {
+  background-image: url("/image/flower.png");
+  background-size: cover;
+  background-color: white;
+  font-family: "Great Vibes", cursive;
+  font-size: 25px;
+  background-color: #fff2e5;
+}
+
+.img-us:hover {
+  transition: 350ms ease-in-out;
+  transform: scale(1.05) translateY(-0.5rem);
+  box-shadow: 0 1.5rem 4rem rgba(black, 0.4);
+  z-index: 20;
+  box-shadow: 0 1.5 4rem rgba(black, 0.4);
+  border-radius: 2px;
+}
+
+.color {
+  color: #b7472a;
+}
+
+.color:hover {
+  color: #fff2e5;
+  text-shadow: 1px 1px 2px #b7472a, 0 0 25px #b7472a, 0 0 5px #b7472a;
+}
+
+.link {
+  color: #fff2e5;
+  text-shadow: 1px 1px 2px #b7472a, 0 0 25px #b7472a, 0 0 5px #b7472a;
+  font-size: 30px;
+}
+
+.flower-right {
+  background-image: linear-gradient(to right bottom, #ffd5ab6c, #fff2e548),
+    url("/image/flowers.png");
+  background-position: top;
+  background-size: cover;
+  width: auto;
+}
+.flower-left {
+  background-image: linear-gradient(to right bottom, #ffd5ab6c, #fff2e548),
+    url("/image/flowers-bottom.png");
+  background-position: top;
+  background-size: cover;
+  width: auto;
+}
+
+.bg {
+  background-image: url("/image/flowers-bottom.png");
+  background-size: cover;
+}
+
+.button {
+  color: #fff2e5;
+  text-shadow: 1px 1px 2px #b7472a, 0 0 25px #b7472a, 0 0 5px #b7472a;
+  font-size: 30px;
+}
+
+.footer {
+  background-color: #fff2e5;
+  background-image: url("/image/flower-bottom.png");
+  background-size: cover;
+  padding: 3rem 0 3rem;
+  font-size: 1.4rem;
+}
+
+.list {
+    list-style: none;
+    display: inline-block;
+}
+
+    .fa-instagram {
+        color: #e4405f;
+        margin-right: 3rem;
+        
+    }
+    .fa-instagram:hover {
+        transition: 350ms ease-in-out;
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+    }
+    .fa-facebook-square {
+        color: #007bff;
+        margin-right: 3rem;
+    }
+    .fa-facebook-square:hover {
+        transition: 350ms ease-in-out;
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+    }
+    .fa-github {
+        color: #3c4245;
+        margin-right: 3rem;
+    }
+    
+    .fa-github:hover {
+        transition: 350ms ease-in-out;
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+    }
+
+    .fa-vk:hover {
+        color: #007bff;
+        transition: 350ms ease-in-out;
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+    }
+    .copyright {
+        color: #b7472a ;
+        font-size: 1rem;
+        text-align: center;
+        padding-left: 5rem;
+    }
+
+
+.success, .error {
+  display: none;
+}
