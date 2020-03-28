@@ -30,8 +30,11 @@ app.post("/rsvp", (req, res) => {
   }
 });
 
-app.listen(3000);
+const PORT = process.env.PORT || 3000;
 
+app.listen(PORT, () => {
+  console.log(`Our app is running on port ${ PORT }`);
+});
 //Save message to firebase
 const saveGuest = (firstName, lastName, email, plusGuests) => {
   const now = new Date();
