@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 //////////////////////
 
 const sendRsvpData = async data => {
-  const baseUrl = "http://localhost:3000";
+  const baseUrl = "https://sheltered-earth-41271.herokuapp.com";
   const url = baseUrl + "/rsvp";
 
   const response = await fetch(url, {
